@@ -1,3 +1,26 @@
+#Progetto Form Registrazione
+
+applicativo sviluppato con React.js che prevede una pagina con un form per simulare un sign up 
+di vari utenti in un ipotetico database e l'altra per vedere chi si è registrato.
+Il database utilizzato è Redis virtualizzato ed utilizzato tramite Docker.
+Il collegamento e la scrittura delle varie chiavi che rappresentano gli utenti sono gestite tramite fetch,
+stessa cosa è utilizzata per ottenere le chiavi in scrittura nell'elenco.
+
+Per il form è stato usato Hook-form su React.
+La versione di React utilizzata è la 18.0, qui sotto si troveranno scritti i comandi poer inizializzare e mettere in run le varie app sviluppate in React,
+Ricordo che per poter utilizzare React è necessario installare Node.js (la versione utilizzata è la 16.4 lts).
+Il piccolo Backend è scritto in Python ver. 3.10, utilizzato su PyCharm con la creazione anche del venv, sono stati usati come framework si Flask che CORS
+Ricordo anche l'utilizzo del docker per Redis o qualsivoglia altro database da poter collegare.
+
+Buon utilizzo
+
+--Gianluca--
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
